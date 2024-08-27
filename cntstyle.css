@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
 .container {
     width: 100%;
     text-align: center;
@@ -22,6 +24,7 @@ h1, header {
 button, .btn_ctrl {
     border: 2px solid #333;
     border-radius: 7px;
+    background-color: white;
 }
 
 button {
@@ -34,9 +37,58 @@ button {
     letter-spacing: 2px;
 }
 
-span, .ctn {
+.btn_ctrl:hover {
+    border-color: deepskyblue;
+    background-color: rgba(47, 179, 255, 0.288);
+    box-shadow: 0 3px 2px #333;
+}
+.btn_ctrl:focus {
+    border-color: deepskyblue;
+    background-color: rgba(47, 179, 255, 0.288);
+    box-shadow: 0 3px 2px #333;
+}
+
+#increase-btn:hover {
     color: green;
+}
+
+#increase-btn:focus {
+    color: green;
+}
+
+#decrease-btn:hover {
+    color: red;
+}
+
+#decrease-btn:focus {
+    color: red;
+}
+
+button:hover {
+    background-color: rgba(47, 179, 255, 0.288);
+    box-shadow: 0 3px 2px #333;
+}
+
+button:focus {
+    background-color: rgba(47, 179, 255, 0.288);
+    box-shadow: 0 3px 2px #333;
+}
+
+span, .ctn {
     font-size: 5rem;
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.massage_container {
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 33.3pc;
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    border-radius: 5px;
+}
+  
